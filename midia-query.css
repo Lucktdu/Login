@@ -4,28 +4,54 @@
   body {
     background-image: linear-gradient(to top, #a063a0, #2d2064);
   }
+  div.campo > input {
+    width: calc(100% - 55px);
+    transform: translateY(-14.6px);
+  }
+
+  div.campo > i {
+    padding-right: 10px;
+    transform: translateY(-6px);
+  }
   section#login {
     width: 80vw;
+    height: 300px;
     font-size: 1.2em;
   }
   section#login > div#foto {
     float: left;
-    width: 30%;
+    width: 50%;
     height: 100%;
   }
   section#login > div#formulario {
     float: right;
-    width: 66%;
+    width: 46%;
   }
 }
 @media screen and (min-width: 992px) {
   body {
     background-image: linear-gradient(to top, #a063a0, #2d2064);
   }
+
+  div.campo > input {
+    width: calc(100% - 60px);
+    transform: translateY(-17.8px);
+  }
+
+  div.campo > i {
+    padding-right: 15px;
+    transform: translateY(-5px);
+  }
+
   section#login {
-    width: 900px;
+    width: 800px;
+    height: 300px;
     font-size: 1.3em;
   }
+
+
+
+  
   section#login > div#foto {
     float: left;
     width: 50%;
